@@ -1,0 +1,16 @@
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border: 1px solid #000;
+}
+
+p {
+    text-align: center;
+}
+
+.result {
+    text-align: center;
+}

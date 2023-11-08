@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Personal Budget</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="index" style="text-align:center">Personal Budget</h1>
+    </header>
+    <div>
+        <p>Welcome to your personal budget, here you can see your monthly budget</p>
+        <p>On the left is the input for the monthly incomes</p>
+        <p>On the right is the input for the monthly outgoings</p>
+
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td><label>Income</label><input type="text" id="income" /></td>
+                <td><button onclick="Income()">Add</button></td>
+                <td><label>Outgoings</label><input type="text" id="outgoing"/></td>
+                <td><button onclick="Outgoings()">Add</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="result" class="result">Your budget for this month is: <button onclick="resultBudget()">Result</button></div>
+    
+    <script src="personal_budget_v2.js"></script>
+</body>
+</html>
